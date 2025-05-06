@@ -9,7 +9,8 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Hello ",
+  hand: "👋",
   title2: "Ramaditya",
   logo_name: "RAMADITYA",
   nickname: "Ramaditya",

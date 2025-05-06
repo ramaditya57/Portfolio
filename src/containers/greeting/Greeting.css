@@ -74,10 +74,46 @@
   cursor: pointer;
 }
 
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(25deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(25deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave-animation 2.5s infinite;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+    display: block;
+    margin: auto;
+    text-align: center;
   }
 
   .greeting-text-p {
@@ -94,8 +130,6 @@
   }
   .greeting-text {
     font-size: 30px;
-    margin-top: 0px;
-    text-align: center;
   }
   .greeting-nickname {
     font-size: 25px;
