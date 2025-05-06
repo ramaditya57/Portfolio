@@ -85,7 +85,7 @@
   }
 
   .greet-main {
-    max-width: 900px;
+    max-width: 350px;
   }
 }
 @media (max-width: 768px) {

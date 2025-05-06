@@ -270,9 +270,9 @@ const skills = {
           style: {
             color: "#11557C",
           },
-        }
+        },
       ],
-    },    
+    },
   ],
 };
 
@@ -367,12 +367,82 @@ const certifications = {
     //   color_code: "#2AAFED",
     // },
     {
+      title: "Full Stack MERN",
+      subtitle: "MERN",
+      logo_path: "mern.png",
+      certificate_link:
+        "https://skillwallet.smartinternz.com/internships/mongo_db/ca0525bfe5cab4c577d169d3343a5452",
+      alt_name: "MERN Stack",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
       title: "Postman Student API Expert",
       subtitle: "Postman",
       logo_path: "postman.png",
       certificate_link:
         "https://badgr.com/public/assertions/zv0zBTsQRueN1uAMKVrFMg?identity__email=ramadityachaudhary@gmail.com",
       alt_name: "Postman",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "Gen AI Using IBM Watsonx",
+      subtitle: "Gen AI",
+      logo_path: "genai.jpg",
+      certificate_link:
+        "https://courses.ibmcep.cognitiveclass.ai/certificates/704a6a0b26a54d0d829cbe03900680b0",
+      alt_name: "Gen AI",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "MATLAB Onramp",
+      subtitle: "Matlab Onramp",
+      logo_path: "mathworks.png",
+      certificate_link:
+        "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=bc59e67e-8b18-463f-a056-d42ca648030c&",
+      alt_name: "Matlab Onramp",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "Simulink Onramp",
+      subtitle: "Simulink Onramp",
+      logo_path: "mathworks.png",
+      certificate_link:
+        "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=ef062f8c-9122-44a8-a07f-d666659d5063&",
+      alt_name: "Simulink Onramp",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "Data Structures and Algorithms",
+      subtitle: "Data Structures and Algorithms",
+      logo_path: "linkedin.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/d7e358e6b34a4da4babda5eebcc3703ee6a22545b98d6628d9cd905c9aea45ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BeghXrKPUTxy7jSl3oPfUaQ%3D%3D",
+      alt_name: "Gen AI",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "Cloud Computing",
+      subtitle: "Cloud Computing",
+      logo_path: "nptel.jpg",
+      certificate_link:
+        "https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs17/Course/NPTEL24CS17S35290012230657720.pdf",
+      alt_name: "Gen AI",
+      // color_code: "#f36c3d",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "Bits and Bytes of Computer Networking",
+      subtitle: "Computer Networking",
+      logo_path: "Google.png",
+      certificate_link:
+        "https://coursera.org/share/53d74972937c9e69ba0c8c4a18e0b226",
+      alt_name: "Gen AI",
       // color_code: "#f36c3d",
       color_code: "#fffbf3",
     },
@@ -399,23 +469,33 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
-//         {
-//           title: "Software Engineer",
-//           company: "Crest Infosystems Pvt. Ltd.",
-//           company_url: "https://www.crestinfosystems.com/",
-//           logo_path: "crest.png",
-//           duration: "Jan 2024 - Present",
-//           location: "Surat, Gujarat",
-//           description: `Worked on enterprise-level software solutions including employee
-// activity tracking system, point of sale system and support ticket
-// systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-// multiple projects by developing and maintaining full-stack web apps
-// with modern technologies like Electron.js, React.js, Node.js, and
-// Sequelize. Designed and implemented custom solutions for tracking employee
-// activity and database optimizations, resulting in improvement in
-// performance.`,
-//           color: "#0071C5",
-//         },
+        {
+          title: "Front End Web Developer Intern",
+          company: "Dr. Ambedkar Lab Foundation",
+          // company_url: "https://www.crestinfosystems.com/",
+          logo_path: "ambedkarlabfoundation.jpeg",
+          duration: "Nov 2023 - Jan 2024",
+          location: "Remote",
+          description: `Contributed to enhancing web performance and user engagement by optimizing front-end applications and improving site responsiveness. Collaborated with cross-functional teams during bi-weekly feedback sessions to accelerate development cycles and improve overall productivity. Ensured robust data protection by implementing secure coding practices and maintaining high availability. Focused on delivering user-centric interfaces that aligned with the organization’s goals and elevated the overall user experience.`,
+          color: "#0071C5",
+        },
+        //         {
+        //           title: "Software Engineer",
+        //           company: "Crest Infosystems Pvt. Ltd.",
+        //           company_url: "https://www.crestinfosystems.com/",
+        //           logo_path: "crest.png",
+        //           duration: "Jan 2024 - Present",
+        //           location: "Surat, Gujarat",
+        //           description: `Worked on enterprise-level software solutions including employee
+        // activity tracking system, point of sale system and support ticket
+        // systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+        // multiple projects by developing and maintaining full-stack web apps
+        // with modern technologies like Electron.js, React.js, Node.js, and
+        // Sequelize. Designed and implemented custom solutions for tracking employee
+        // activity and database optimizations, resulting in improvement in
+        // performance.`,
+        //           color: "#0071C5",
+        //         },
         // {
         //   title: "Node.js Backend Developer",
         //   company: "Valora Infotech",
@@ -465,6 +545,17 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
+        {
+          title: "Technical Team Member",
+          company: "VITronix Club, VIT Bhopal",
+          // company_url: "https://bauddhikgeeks.tech/",
+          logo_path: "vitronix.png",
+          duration: "July 2024 - Present",
+          location: "On Campus",
+          description:
+            "Volunteered during the “Electro-Craft” workshop organized by the VITronix Club in collaboration with Hyaku Innovative Technologies Pvt. Ltd. at VIT-Bhopal. Actively contributed to supporting participants in exploring electronics and programming concepts, enabling them to gain practical exposure to the technical domain. Assisted in managing event logistics and mentoring attendees, ensuring a productive learning environment. The experience fostered technical growth, teamwork, and knowledge sharing, while promoting community-driven skill development.",
+          color: "#FBBD18",
+        },
         // {
         //   title: "Community Lead",
         //   company: "Bauddhik-Geeks",
@@ -562,7 +653,8 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create Python Scripts, and React Project. Below are some of my projects.",
+  // "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -577,7 +669,7 @@ const contactPageData = {
   blogSection: {
     // title: "Blogs",
     // subtitle:
-      // "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+    // "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
     // link: "https://twitter.com/Harikrushn9",
     // avatar_image_path: "blogs_image.svg",
   },

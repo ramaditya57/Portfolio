@@ -5,6 +5,11 @@
   font-family: "Google Sans Regular";
 }
 
+#copyright-symbol {
+  font-size: 1.7rem; /* Adjust size as desired */
+  vertical-align: sub; /* Optional: aligns it better with text */
+}
+
 .footer-div {
   margin-top: 2rem;
 }
