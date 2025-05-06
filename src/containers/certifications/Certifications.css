@@ -15,6 +15,9 @@
 }
 
 @media (max-width: 1380px) {
+  .certs-body-div {
+    display: flex;
+  }
   .certs-header {
     font-size: 35px;
   }
@@ -22,6 +25,7 @@
 
 @media (max-width: 768px) {
   .certs-body-div {
+    display: flex;
     flex-direction: column;
   }
   .certs-header {

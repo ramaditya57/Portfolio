@@ -23,7 +23,7 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/ramaditya57",
-  linkedin: "www.linkedin.com/in/ramaditya-chaudhary-287b36251",
+  linkedin: "https://www.linkedin.com/in/ramaditya-chaudhary-287b36251",
   gmail: "ramadityachaudhary@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
   // facebook: "https://www.facebook.com/harikrishan.kanani/",
