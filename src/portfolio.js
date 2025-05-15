@@ -274,8 +274,100 @@ const skills = {
         },
       ],
     },
+    {
+      title: "UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
   ],
 };
+
+// const competitiveSites = {
+//   competitiveSites: [
+//     {
+//       siteName: "LeetCode",
+//       iconifyClassname: "simple-icons:leetcode",
+//       style: {
+//         color: "#F79F1B",
+//       },
+//       profileLink: "https://leetcode.com/layman_brother/",
+//     },
+//     {
+//       siteName: "HackerRank",
+//       iconifyClassname: "simple-icons:hackerrank",
+//       style: {
+//         color: "#2EC866",
+//       },
+//       profileLink: "https://www.hackerrank.com/layman_brother",
+//     },
+//     {
+//       siteName: "Codechef",
+//       iconifyClassname: "simple-icons:codechef",
+//       style: {
+//         color: "#5B4638",
+//       },
+//       profileLink: "https://www.codechef.com/users/ashutosh_1919",
+//     },
+//     {
+//       siteName: "Codeforces",
+//       iconifyClassname: "simple-icons:codeforces",
+//       style: {
+//         color: "#1F8ACB",
+//       },
+//       profileLink: "http://codeforces.com/profile/layman_brother",
+//     },
+//     {
+//       siteName: "Hackerearth",
+//       iconifyClassname: "simple-icons:hackerearth",
+//       style: {
+//         color: "#323754",
+//       },
+//       profileLink: "https://www.hackerearth.com/@ashutosh391",
+//     },
+//     {
+//       siteName: "Kaggle",
+//       iconifyClassname: "simple-icons:kaggle",
+//       style: {
+//         color: "#20BEFF",
+//       },
+//       profileLink: "https://www.kaggle.com/laymanbrother",
+//     },
+//   ],
+// };
 
 const degrees = {
   degrees: [
