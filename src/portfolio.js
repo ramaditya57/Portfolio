@@ -551,12 +551,247 @@ const certifications = {
   ],
 };
 
+export const skillsData = [
+  {
+    id: 1,
+    name: "JavaScript",
+    category: "Frontend",
+    description:
+      "Modern JS including ES6+, async/await, and functional programming concepts",
+    proficiency: 75,
+    // yearsOfExperience: 5,
+  },
+  {
+    id: 2,
+    name: "React",
+    category: "Frontend",
+    description:
+      "Building complex UIs with hooks, context API and state management",
+    proficiency: 60,
+    // yearsOfExperience: 4,
+  },
+  {
+    id: 3,
+    name: "CSS/SASS",
+    category: "Frontend",
+    description:
+      "Advanced styling with flexbox, grid, animations, and responsive design",
+    proficiency: 80,
+    // yearsOfExperience: 5,
+  },
+  {
+    id: 4,
+    name: "Tailwind CSS",
+    category: "Frontend",
+    description:
+      "Utility-first CSS framework for rapidly building custom designs",
+    proficiency: 80,
+    // yearsOfExperience: 3,
+  },
+  // {
+  //   id: 5,
+  //   name: "TypeScript",
+  //   category: "Frontend",
+  //   description: "Type-safe JavaScript with interfaces, generics, and utility types",
+  //   proficiency: 75,
+  //   yearsOfExperience: 3,
+  // },
+  {
+    id: 6,
+    name: "Node.js",
+    category: "Backend",
+    description:
+      "Server-side JavaScript runtime for building scalable network applications",
+    proficiency: 40,
+    // yearsOfExperience: 4,
+  },
+  {
+    id: 7,
+    name: "Express",
+    category: "Backend",
+    description: "Fast, unopinionated, minimalist web framework for Node.js",
+    proficiency: 45,
+    // yearsOfExperience: 4,
+  },
+  {
+    id: 8,
+    name: "MongoDB",
+    category: "Database",
+    description: "Document-based NoSQL database for modern applications",
+    proficiency: 45,
+    // yearsOfExperience: 3,
+  },
+  // {
+  //   id: 9,
+  //   name: "PostgreSQL",
+  //   category: "Database",
+  //   description: "Advanced open source relational database with powerful features",
+  //   proficiency: 70,
+  //   yearsOfExperience: 3,
+  // },
+  // {
+  //   id: 10,
+  //   name: "GraphQL",
+  //   category: "API",
+  //   description: "Query language for APIs and runtime for fulfilling those queries",
+  //   proficiency: 65,
+  //   yearsOfExperience: 2,
+  // },
+  {
+    id: 11,
+    name: "Docker",
+    category: "DevOps",
+    description:
+      "Containerization platform for building, shipping, and running applications",
+    proficiency: 50,
+    // yearsOfExperience: 2,
+  },
+  {
+    id: 12,
+    name: "AWS",
+    category: "DevOps",
+    description: "Cloud services including EC2, S3, Lambda, and more",
+    proficiency: 45,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 13,
+    name: "Git",
+    category: "Tools",
+    description:
+      "Version control system for tracking changes and collaborating",
+    proficiency: 85,
+    // yearsOfExperience: 5,
+  },
+  // {
+  //   id: 14,
+  //   name: "Jest",
+  //   category: "Testing",
+  //   description: "JavaScript testing framework with a focus on simplicity",
+  //   proficiency: 70,
+  //   yearsOfExperience: 3,
+  // },
+  {
+    id: 15,
+    name: "Figma",
+    category: "Design",
+    description:
+      "Collaborative UI design tool for creating, testing, and shipping designs",
+    proficiency: 85,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 16,
+    name: "Python",
+    category: "Backend",
+    description:
+      "General-purpose programming language with focus on readability",
+    proficiency: 75,
+    // yearsOfExperience: 2,
+  },
+  // {
+  //   id: 17,
+  //   name: "Redux",
+  //   category: "Frontend",
+  //   description: "Predictable state container for JavaScript apps",
+  //   proficiency: 80,
+  //   yearsOfExperience: 3,
+  // },
+  // {
+  //   id: 18,
+  //   name: "Next.js",
+  //   category: "Frontend",
+  //   description: "React framework for production with server-side rendering and static generation",
+  //   proficiency: 75,
+  //   yearsOfExperience: 2,
+  // },
+  {
+    id: 19,
+    name: "Flask",
+    category: "Backend",
+    description:
+      "Lightweight and flexible Python web framework for building simple to complex web applications with ease",
+    proficiency: 85,
+    yearsOfExperience: 4,
+  },
+  {
+    id: 20,
+    name: "Canva",
+    category: "Design",
+    description:
+      "Collaborative UI design tool for creating, testing, and shipping designs",
+    proficiency: 85,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 21,
+    name: "Selenium",
+    category: "Testing",
+    description: "Open-source framework used for automating web browsers",
+    proficiency: 55,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 22,
+    name: "Java",
+    category: "Backend",
+    description:
+      "Versatile, Object-oriented programming language known for its platform independence",
+    proficiency: 85,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 23,
+    name: "C++",
+    category: "Backend",
+    description:
+      "Powerful, general-purpose programming language that extends the C language with object-oriented features",
+    proficiency: 75,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 24,
+    name: "Bootstrap",
+    category: "Frontend",
+    description:
+      "Open-source CSS framework for designing responsive and mobile-first websites with pre-built components and layouts",
+    proficiency: 85,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 25,
+    name: "MySQL",
+    category: "Database",
+    description:
+      "Open-source relational database management system (RDBMS) used for efficiently storing, retrieving, and managing structured data",
+    proficiency: 85,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 26,
+    name: "Beautiful Soap",
+    category: "Backend",
+    description:
+      "Python library for easily parsing HTML and XML documents to extract data from web pages",
+    proficiency: 85,
+    // yearsOfExperience: 3,
+  },
+  {
+    id: 27,
+    name: "Postman API",
+    category: "API",
+    description: "Platform for building, testing, and managing APIs",
+    proficiency: 45,
+    // yearsOfExperience: 3,
+  },
+];
+
 // Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "As a Node.js Backend Developer, I have worked with real projects for over two years. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
+    "As a Full Stack Developer, I have worked with projects for over two years. I've mostly done projects on my own.",
   header_image_path: "experience.svg",
   sections: [
     {

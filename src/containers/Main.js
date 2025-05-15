@@ -6,6 +6,7 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Skills from "../pages/skills/Skills.js";
 import { settings } from "../portfolio.js";
 
 // 👇 Create a wrapper to detect route change and show splash
@@ -55,6 +56,16 @@ export default function Main(propss) {
               path="/experience"
               render={(props) => (
                 <Experience
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/skills"
+              render={(props) => (
+                <Skills
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

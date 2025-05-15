@@ -27,6 +27,7 @@
     "fbjs": "^3.0.5",
     "gh-pages": "^6.1.0",
     "glamor": "^2.17.9",
+    "lucide-react": "^0.510.0",
     "node-fetch": "^2.6.1",
     "react": "^17.0.2",
     "react-awesome-reveal": "^4.3.1",
