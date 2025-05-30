@@ -712,7 +712,7 @@ export const skillsData = [
     description:
       "Lightweight and flexible Python web framework for building simple to complex web applications with ease",
     proficiency: 85,
-    yearsOfExperience: 4,
+    // yearsOfExperience: 4,
   },
   {
     id: 20,

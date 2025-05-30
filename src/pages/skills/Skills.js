@@ -12,7 +12,8 @@ const Skills = ({ theme, setTheme }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredSkills, setFilteredSkills] = useState([]);
-  const [expandedCategory, setExpandedCategory] = useState(null); // Only one category at a time
+  // const [expandedCategory, setExpandedCategory] = useState(null); // Only one category at a time
+  const [expandedCategory, setExpandedCategory] = useState([]); // Multiple category at a time
   const [isLoading, setIsLoading] = useState(true);
 
   const categories = useMemo(() => {
@@ -47,8 +48,24 @@ const Skills = ({ theme, setTheme }) => {
     setFilteredSkills(filtered);
   }, [selectedCategory, searchQuery]);
 
+  // Single category
+
+  // const toggleCategory = (category) => {
+  //   setExpandedCategory((prev) => (prev === category ? null : category));
+  // };
+
+  // Multiple category
+
   const toggleCategory = (category) => {
-    setExpandedCategory((prev) => (prev === category ? null : category));
+    setExpandedCategory((prev) => {
+      if (prev.includes(category)) {
+        // Remove category if it's already expanded
+        return prev.filter((cat) => cat !== category);
+      } else {
+        // Add category to expanded list
+        return [...prev, category];
+      }
+    });
   };
 
   const groupedSkills = {};
@@ -162,7 +179,11 @@ const Skills = ({ theme, setTheme }) => {
                           className="category-toggle"
                           style={{ color: theme.accentColor }}
                         >
-                          {expandedCategory === category ? (
+                          {/* Single Category */}
+                          {/* {expandedCategory === category ? ( */}
+
+                          {/* Multiple Category */}
+                          {expandedCategory.includes(category) ? (
                             <ChevronUp size={20} />
                           ) : (
                             <ChevronDown size={20} />
@@ -170,7 +191,11 @@ const Skills = ({ theme, setTheme }) => {
                         </div>
                       </div>
 
-                      {expandedCategory === category && (
+                      {/* Single Category */}
+                      {/* {expandedCategory === category && ( */}
+
+                      {/* Multiple Category */}
+                      {expandedCategory.includes(category) && (
                         <div className="skills-grid">
                           {groupedSkills[category].map((skill, index) => (
                             <Fade
