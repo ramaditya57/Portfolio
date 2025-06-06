@@ -58,7 +58,7 @@ function Contact(props) {
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
-                style={{ borderRadius: "50%" }}
+                style={{ borderRadius: "30%" }}
                 className="profile-pic"
                 src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                 alt="ramaditya-profile-pic"
